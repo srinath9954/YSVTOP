@@ -1,0 +1,43 @@
+.log{
+    width: 150px;
+    height: 180px;
+    margin-left: 300px;
+    margin-top:80px ;
+    padding: 1em;
+    background-color: rgba(0,0,0,.85);
+    border-radius: 10px;
+    font-size: x-small;
+    color: aliceblue;
+    transition-duration: 5s;
+}
+.log h5{
+    text-align: center;
+    font-size: small;
+}
+body{
+    background-image:url("sky.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+label{
+    display: block;
+}
+input{
+    width: 100%;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    box-sizing: border-box;
+    height: 15px;
+}
+input:hover{
+    background-color:darkseagreen;
+}
+button{
+    margin-top: 1em;
+    text-align: center;
+    margin-left: 45px;
+    font-size: xx-small;
+    background-color: darkseagreen;
+    font-weight: bolder;
+}

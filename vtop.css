@@ -1,0 +1,36 @@
+.navbar{
+
+  background-color:  #ff1a75;
+  padding-top: 5px;
+}
+.topcontent{
+  text-align: center;
+  color:  #ff1a75;
+}
+.row{
+  padding-top: 50px;
+}
+.images{
+  max-width: 100%;
+  height: 150px;
+  padding-right: 50px;
+}
+.button{
+  width: 15px;
+}
+.row-spot{
+  padding-top: 50px;
+}
+.headcard{
+  color: red;
+}
+.full{
+  padding-left: 30px;
+}
+.colors{
+  height: 10px;
+  background-color: #ff1a75;
+}
+.rowtitle{
+  text-align: center;
+}

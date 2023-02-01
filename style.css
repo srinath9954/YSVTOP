@@ -1,0 +1,147 @@
+.header{
+    display: flex;
+}
+
+p{
+    text-align: center;
+    padding: .5em;
+    flex: 4;
+}
+.hi{
+     padding-right: 1em;
+     padding-top: .5em;
+}
+.btn-group{
+    display: flex;
+    width:fit-content;
+    height: fit-content;
+    text-align: center;
+    padding-left:.25em;
+    padding-top: .6em;
+    font-weight: 1px;
+}
+li{
+    margin: 1px;
+
+}
+.btn-group{
+    margin-inline-end: 2em;
+}
+
+.btn-group1{
+    display: grid;
+    text-align-last: left;
+    display: block;
+
+}
+.btn-group2{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    text-align-last: left;
+}
+.btn-group3{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    text-align-last: left;
+
+}
+.btn-group4{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    text-align-last: left;
+
+}
+.btn-group5{
+    display: grid;
+    grid-template-columns:4fr 1fr;
+    text-align-last: left;
+
+}
+
+.btn-group6{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    text-align-last: left;
+
+}
+
+.btn-group7{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    text-align-last: left;
+}
+
+.btn-group8{
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    text-align-last: left;
+}
+
+.btn-group9{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    text-align-last: left;
+}
+
+
+.btn-group10{
+
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    text-align-last: left;
+
+}
+i{
+
+    padding-inline: 1em;
+}
+p{
+    color:whitesmoke;
+}
+.spot{
+    text-align: center;
+    font-weight: bolder;
+}
+.box{
+    display: grid;
+    height: 200px;
+    width: 600px;
+    background-color: bisque;
+    border: 6px solid black;
+    box-sizing: border-box;
+    min-width: 20px;
+    margin-left: 5em;
+    background-position: cover;
+
+
+}
+
+button{
+    margin-bottom: 2em;
+    color: beige;
+    background-color: gray;
+}
+li{
+    background-color: gray;
+}
+body{
+    background-image:url("sky.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.c{
+    color: aliceblue;
+    margin-left: 10em;
+    margin-top: 1em;
+    padding-inline: .2em;
+    text-decoration: none;
+
+}
+.c i{
+    color: black;
+}
