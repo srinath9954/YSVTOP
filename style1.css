@@ -1,43 +1,42 @@
-.log{
-    width: 150px;
-    height: 180px;
-    margin-left: 300px;
-    margin-top:80px ;
-    padding: 1em;
-    background-color: rgba(0,0,0,.85);
-    border-radius: 10px;
-    font-size: x-small;
-    color: aliceblue;
-    transition-duration: 5s;
-}
-.log h5{
-    text-align: center;
-    font-size: small;
-}
-body{
-    background-image:url("sky.jpg");
-    background-size: cover;
-    background-position: center;
+.navbar{
 
+  background-color:  #ff1a75;
+  padding-top: 5px;
 }
-label{
-    display: block;
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-input{
-    width: 100%;
-    margin-top: .5em;
-    margin-bottom: .5em;
-    box-sizing: border-box;
-    height: 15px;
+
+form {
+  background-color: #f2f2f2;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #999;
 }
-input:hover{
-    background-color:darkseagreen;
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
 }
-button{
-    margin-top: 1em;
-    text-align: center;
-    margin-left: 45px;
-    font-size: xx-small;
-    background-color: darkseagreen;
-    font-weight: bolder;
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 10px 0 #999;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #99c2ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
